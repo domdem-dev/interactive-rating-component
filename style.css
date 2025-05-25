@@ -1,0 +1,104 @@
+body {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.cards {
+  box-sizing: border-box;
+  width: 320px;
+  padding: 20px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 15px;
+}
+h1 {
+  color: hsl(0, 100%, 100%);
+  font-weight: 700;
+  font-size: 20px;
+}
+p {
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+}
+.vote-btn {
+  box-sizing: border-box;
+  width: 40px;
+  padding: 10px;
+  border-radius: 100%;
+  border: none;
+  background-color: hsl(212, 15%, 20%);
+  color: hsl(217, 12%, 63%);
+  margin: 0;
+  cursor: pointer;
+}
+ul {
+  box-sizing: border-box;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  border: 0;
+}
+#submit-btn {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.vote-btn:hover,
+#submit-btn:hover {
+  background-color: hsl(0, 100%, 100%);
+  color: hsl(213, 19%, 18%);
+}
+.active {
+  color: hsl(213, 19%, 18%);
+  background-color: hsl(25, 97%, 53%);
+}
+#thank-you-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#thank-you-img {
+  box-sizing: border-box;
+  height: 120px;
+  padding: 15px;
+}
+#result {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: hsl(212, 15%, 20%);
+  color: hsl(25, 97%, 53%);
+}
+#vote{
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+}
+#thank-you-h1 {
+  margin-bottom: 0;
+}
+.hidden {
+  display: none !important;
+}
